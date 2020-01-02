@@ -90,8 +90,6 @@ nav .flex-wrap .nav-bar ul a {
           text-decoration: underline wavy;
   -webkit-text-decoration-color: transparent;
           text-decoration-color: transparent;
-  -webkit-transition: 500ms ease-in-out;
-  transition: 500ms ease-in-out;
 }
 
 nav .flex-wrap .nav-bar ul .active-link {
@@ -303,10 +301,6 @@ footer span {
   font-family: "Satisfy", cursive;
   font-size: 45px;
   opacity: 0;
-  -webkit-transition: 500ms ease-out;
-  transition: 500ms ease-out;
-  -webkit-transition-delay: 100ms;
-          transition-delay: 100ms;
 }
 
 .cards-container .card:nth-child(odd) .card-btn, .cards-container .card:nth-child(even) .card-btn {
@@ -325,10 +319,6 @@ footer span {
   cursor: pointer;
   z-index: 9999;
   opacity: 0;
-  -webkit-transition: 500ms ease-out;
-  transition: 500ms ease-out;
-  -webkit-transition-delay: 100ms;
-          transition-delay: 100ms;
 }
 
 .cards-container {
@@ -605,6 +595,8 @@ footer span {
 }
 
 .contact-container .contact-form-container form input[type="submit"]:hover {
+  -webkit-transition: background-color 500ms ease-in-out;
+  transition: background-color 500ms ease-in-out;
   background-color: #282023;
   color: #dbdbd9;
 }

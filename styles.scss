@@ -78,7 +78,6 @@ nav{
                     color: $main-green;
                     text-decoration: underline wavy;
                     text-decoration-color: transparent; //text-decoration no acepta transicion, pero el color si
-                    transition: 500ms ease-in-out;
                 }
                 .active-link{
                     text-decoration: underline wavy;
@@ -199,12 +198,12 @@ footer{
                 height: 100%;
 
             }
-        } // end slide body
+        } // end slide body 
     } // end Slide
     .active-slide{
         opacity: 1;
     }
-    
+
     .sliders-nav{  //ubicamos los elementos dentro del contenedor relativo padre
         position: absolute;
         right: 40px;
@@ -239,7 +238,7 @@ footer{
             background: $light-grey;
         }
     }//end slider-nav
-} // end slider-container
+} // end slider-container 
 
 /*
 
@@ -257,9 +256,6 @@ footer{
     font-family: $brand-font;
     font-size: 45px;
     opacity:0;
-    transition: 500ms ease-out;
-    transition-delay: 100ms;
-            
 }
 
 %card-btn-layout{
@@ -277,8 +273,6 @@ footer{
     cursor: pointer;
     z-index: 9999;
     opacity:0;
-    transition: 500ms ease-out;
-    transition-delay: 100ms;
 }
 
 .cards-container{
@@ -430,7 +424,7 @@ footer{
         @extend %coffee-img-container;
         background-color: $main-blue;
     }
-}// end coffee-container
+}// end coffee-container 
 
 /*
 
@@ -491,6 +485,7 @@ footer{
             }
 
             input[type="submit"]:hover{
+                transition: background-color 500ms ease-in-out;
                 background-color: $dark-grey;
                 color: $light-grey;
             }
@@ -520,4 +515,4 @@ footer{
             }
         }
     }
-}// end .contact-container
+}// end .contact-container 
