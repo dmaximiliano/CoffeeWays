@@ -31,6 +31,21 @@ body{
 }
 
 
+/*
+
+--------   INDEX  --------
+
+0. Navegación
+1. Footer
+2. Home
+3. Our Ways
+4. French Press/Chemex/Moka Pot
+5. Contact
+
+
+*/
+
+
 
 // --- Global --- //
 .container{
@@ -44,6 +59,12 @@ img{
     height: auto;
     object-fit: cover;
 }
+
+/*
+
+--------  0. Navegación  --------
+
+*/
 
 nav{
     background: $dark-grey;
@@ -91,6 +112,13 @@ nav{
     }
 } // End Navigation //
 
+
+/*
+
+--------  1. Footer  --------
+
+*/
+
 footer{
     background-color: $dark-grey;
     height: 80px;
@@ -111,7 +139,7 @@ footer{
 
 /*
 
---------   PAGE 1 - Home  --------
+--------  2. Home  --------
 
 */
 
@@ -242,7 +270,7 @@ footer{
 
 /*
 
---------   PAGE 2 - Our Ways  --------
+--------  3. Our Ways  --------
 
 */
 
@@ -346,7 +374,7 @@ footer{
 
 /*
 
---------   PAGE 3 - French Press/Chemex/Moka Pot  --------
+--------   4. French Press/Chemex/Moka Pot  --------
 
 */
 
@@ -428,7 +456,7 @@ footer{
 
 /*
 
---------   PAGE 4 - Contact  --------
+--------  5. Contact  --------
 
 */
 
